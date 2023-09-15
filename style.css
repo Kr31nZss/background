@@ -1,0 +1,93 @@
+body{
+    background-image: url(https://moya-planeta.ru/upload/images/xl/95/fe/95fe44d0e5fe53e49d874f9c2e07381ca8ea823a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    transition: 1s all;
+    border-radius: 15%;
+    float: left;
+    margin-top: -60px;
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+    transition: 1s all;
+    border-radius: 15%;
+    float: left;
+    margin-top: -60px;
+}
+.bord1{
+    border: solid 2px darkgray;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: aqua;
+    transition: 1s all;
+    border-radius: 15%;
+}
+.bord2{
+    border: solid 2px darkgray;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 15%;
+    transition: 1s all;
+    color: aqua;
+}
+.bord1:hover{
+    transition: all 1s;
+    color: aliceblue;
+    border-color: aqua;
+}
+.bord2:hover{
+    transition: all 1s;
+    color: aliceblue;
+    border-color: aqua;
+}
+
+nav{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+
+ul{
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.about{
+    color: aliceblue;
+    transition: 1s all;
+    transform: scale(0.9);
+}
+.cont{
+    color: aliceblue;
+    transition: 1s all;
+    transform: scale(0.9);
+}
+.qwe{
+    color: aliceblue;
+    transition: 1s all;
+    transform: scale(0.9);
+}
+.about:hover{
+    color: aquamarine;
+    transform: scale(1);
+    transition: 1s all;
+}
+.cont:hover{
+    color: aquamarine;
+    transform: scale(1);
+    transition: 1s all;
+}
+.qwe:hover{
+    color: aquamarine;
+    transform: scale(1);
+    transition: 1s all;
+}
